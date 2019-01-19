@@ -1,0 +1,33 @@
+.button{
+  display: inline-block;
+  border-radius: 5px;
+  padding: 28px 82px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  box-shadow: inset 0px -16px 0px -12px rgba(0,0,0,0.15);
+
+  &--orange {
+    background: #eb7d4b;
+    transition: 0.3s;
+
+    &:hover{
+      background:darken(#eb7d4b, 7%);
+    }
+  }
+
+  &--yellow {
+
+    background: #f8cd53;
+
+    &:hover{
+      background: lighten(#f8cd53, 7%);
+    }
+  }
+  &--text-uppercase {
+    text-transform: uppercase;
+  }
+
+}

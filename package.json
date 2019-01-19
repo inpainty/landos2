@@ -1,0 +1,39 @@
+{
+  "name": "landos2",
+  "version": "1.0.0",
+  "description": "This is my training landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inpainty/landos2.git"
+  },
+  "author": "Ruslan Kudakaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inpainty/landos2/issues"
+  },
+  "homepage": "https://github.com/inpainty/landos2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp.spritesmith": "^6.9.0",
+    "node-sass": "^4.11.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.5",
+    "del": "^3.0.0",
+    "global": "^4.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "normalize.scss": "^0.1.0"
+  }
+}

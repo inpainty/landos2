@@ -1,0 +1,19 @@
+.nav{
+  display: inline-block;
+  vertical-align: top;
+
+  &__link{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    padding: 10px 17px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 5px;
+
+    &:hover, &--active{
+      background-color: #643a79;
+    }
+  }
+}

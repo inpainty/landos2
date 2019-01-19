@@ -1,0 +1,13 @@
+.header{
+  background-color: #87509c;
+  padding: 55px 25px 0px; 
+  &__wrap{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+
+}
