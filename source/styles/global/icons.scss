@@ -1,12 +1,21 @@
 .icon{
-  margin: auto auto 23px auto;
+  margin: auto;
+  &-wrap{
+    height: 134px;
+    margin-bottom: 60px;
+  }
+
 }
-.icon-like{
-  @include sprite($like);
+
+.icon-flag{
+  @include sprite($flag);
 }
-.icon-book{
-  @include sprite($book);
+.icon-pencil{
+  @include sprite($pencil);
 }
-.icon-message{
-  @include sprite($message)
+.icon-gears{
+  @include sprite($gears)
+}
+.icon-rocket{
+  @include sprite($rocket)
 }

@@ -1,0 +1,36 @@
+.title{
+  margin-bottom: 80px;
+  text-align: center;
+  padding: 0 250px;
+
+
+  &__header{
+    margin: 0 0 50px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+
+
+    &:after{
+      @include centerer-x();
+
+      content: '';
+      bottom: -16px;
+      width:88px;
+      height: 4px;
+      background: #000;
+      opacity: 0.25;
+
+      }
+
+  }
+
+
+  &__text{
+    font-size: 1.125rem;
+    font-weight:400;
+  }
+
+}

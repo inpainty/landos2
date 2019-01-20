@@ -1,0 +1,31 @@
+.services{
+  padding: 120px 0 130px;
+  background:#17c2a4;
+  color: #fff;
+  text-align: center;
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  &__item{
+    width: 23%;
+    padding: 0 30px;
+  }
+
+  &__header{
+    margin: 0 0 28px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__description{
+    margin-top: 0;
+    font-weight: 300;
+    line-height: 1.5;
+
+  }
+}
